@@ -48,7 +48,7 @@
             if (event.which != 13) {
                 clearTimeout(timer)
                 socket.emit('typing')
-                timer = setTimeout(empty, 100);
+                timer = setTimeout(empty, 1000);
             }
 
         });
